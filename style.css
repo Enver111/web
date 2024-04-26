@@ -616,6 +616,9 @@ body {
   display: flex;
   gap: 8px;
 }
+.subscription_card_title_text {
+  font-weight: bold;
+}
 .subscription_card_title_text:last-child {
   margin: auto 0;
   border-radius: 24px;
@@ -623,6 +626,7 @@ body {
   height: 24px;
   background: rgba(180, 112, 235, 0.16);
 }
+
 .subscription_card_title_text:last-child p {
   color: rgb(130, 48, 197);
   font-size: 12px;
@@ -754,6 +758,7 @@ body {
 .slides_title {
   color: rgb(0, 0, 0);
   font-size: 24px;
+  font-weight: bold;
   margin: 0;
 }
 .slides_text {
