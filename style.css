@@ -357,7 +357,6 @@ body {
   margin: 48px 0 24px 0;
   color: rgb(114, 112, 126);
   font-size: 12px;
-  font-weight: 500;
   text-align: center;
 }
 .ticker-container {
@@ -906,9 +905,9 @@ body {
 .hamburgermenu_active {
   display: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 360px) {
   .popup_container {
-    width: 500px;
+    width: 360px;
   }
   .cross_btn {
     left: 310px;
@@ -944,7 +943,7 @@ body {
   }
   .nav_solutin_blog {
     background-color: white;
-    width: 500px;
+    width: 360px;
     height: auto;
     box-sizing: border-box;
     padding: 62px 16px 129px 16px;
@@ -1011,7 +1010,7 @@ body {
     display: none;
   }
   .container {
-    max-width: 500px;
+    max-width: 360px;
     margin: 0 auto;
   }
   .nav {
@@ -1071,11 +1070,11 @@ body {
   }
   .subscription_wrap {
     overflow: hidden;
-    width: 500px;
+    width: 360px;
   }
   .main {
     overflow: hidden;
-    width: 500px;
+    width: 360px;
     margin: 80px auto;
   }
   .subheader {
